@@ -1,0 +1,12 @@
+[build-system]
+requires = ["meson-python", "pybind11"]
+build-backend = "mesonpy"
+
+[project]
+name = "randalo_adelie"
+version = "0.1.0"
+
+requires = [
+    "randalo",
+    "adelie",
+]
